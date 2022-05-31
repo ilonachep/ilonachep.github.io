@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quattrocento+Sans:wght@400;700&family=Yantramanav:wght@100;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/2325febdcc.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <nav id="navbar">
+      <ul class="navbar-links">
+        <li><a href="#intro">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills-chart">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <input type="checkbox" id="mobile-menu-input" class="hamburger" />
+    <label id="navbar-mobile" for="mobile-menu-input" class="hamburger">
+      <i></i>
+      <text>
+        <p class="menu">menu</p>
+        <p class="close">close</p>
+      </text>
+    </label>
+    <nav id="navbar-mobile-menu">
+      <ul>
+        <li><a href="#mobile-intro">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills-chart">Skills</a></li>
+        <li><a href="#languages">Languages</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <section id="intro">
+      <div class="intro-container">
+        <div data-img-name="Ilona Chep portfolio">
+          <img src="assets/name-logo-min.png" alt="name logo" />
+        </div>
+        <div class="greeting-card">
+          <h2 class="greeting-card-title-visible">Hi! I'm Ilona.</h2>
+          <p class="greeting-card-text-visible">
+            <span id="greeting"></span><sup><b>*</b></sup>
+          </p>
+          <div class="quote">
+            <p class="greeting-card-quote-visible">
+              <b>* </b> And if not<b>,</b> take the following with a grain of
+              salt<b>:</b>
+            </p>
+            <p class="greeting-card-quote-visible">
+              Nothing is static <b>[</b> except for CSS defaults <b>]</b>,
+            </p>
+            <p class="greeting-card-quote-visible">
+              everything is evolving<b>,</b> and everything is falling apart<b
+                >.</b
+              >
+            </p>
+            <p class="greeting-card-quote-visible name-referal">
+              Tyler Durden <b> + </b> MDN Docs
+            </p>
+          </div>
+          <div class="greeting-card-hidden">
+            <img
+              src="assets/portrait photo 4.jpg"
+              alt="personal photo"
+              class="greeting-card-hidden-pic"
+            />
+            <div class="greeting-card-hidden-pic--deco"></div>
+            <div class="greeting-card-hidden-text">
+              <div>
+                <p>
+                  Welcome to my Interactive resume! I’m Ilona and I’m an avid
+                  web developer. Always learning. Always enquiring.
+                </p>
+                <p>
+                  My professional life could be easily encompassed in a
+                  three-point timeline: media - law - programming. In actuality,
+                  there are more to it.
+                </p>
+                <p>
+                  The last few years have become the most transformative years
+                  for me. Having extensive work background in media environment
+                  (I worked out content grids, planned and acquired content for
+                  worldwide viewers for Sony Pictures, Viasat Broadcasting UK,
+                  Turner, A+E Networks and others, I’ll keep them all in my
+                  linkedIn history:) at some point there was no further
+                  progression and I started to realise a growing craving to meet
+                  more challenges and actively expand knowledge on areas of
+                  interest.
+                </p>
+                <p>
+                  These aspects led me to take up a law degree. During the
+                  course in my third year I took part in an international
+                  strategic forum on IP, digital economy and technologies domino
+                  affect in legal industry and their eventual push-through into
+                  this rather conservative and lagging field. The topics of
+                  data, effective mechanisms for protection of program code and
+                  idea, and few other events really knocked my socks off. They
+                  planted a seed of vivid interest and for the first time I
+                  consciously asked myself the whole array of questions: What is
+                  technology? What’s behind all those beautiful interfaces?
+                  How’s all this running? Though they were just seeds, initial
+                  questions, sheer curiosity that could have vanished under the
+                  pressures of other responsibilities, but they did not due to
+                  one infamous global event.
+                </p>
+                <p>
+                  Despite it all, Covid-wide restrictions allowed a wonderful
+                  opportunity to start acting on that initial interest - not
+                  just ask questions but look for answers, grasp new knowledge,
+                  seek understanding in a stack of existing technologies. I’ve
+                  eagerly hopped on a bandwagon of The Complete 2022 Web
+                  Development Bootcamp at London App Brewery with Dr. Angela Yu
+                  and Responsive Web Design at freeCodeCamp.org which I’ve found
+                  both fascinating.
+                </p>
+                <p>
+                  To sum it up, the most I like about this industry is that it
+                  provides tools and frameworks to bring order into chaos, and
+                  its adaptive nature when better instruments are needed to be
+                  used to meet challenges of a tomorrow.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="intro-container--description2"></div>
+    </section>
+
+    <section id="intro-mobile">
+      <img src="assets/name-logo-min.png" alt="name logo" />
+      <div class="mobile-greeting-card" id="mobile-intro">
+        <h2 class="mobile-greeting-card-title-visible">Hi! I'm Ilona.</h2>
+        <p class="mobile-greeting-card-text-visible">
+          <span id="mobile-greeting"></span><sup><b>*</b></sup>
+        </p>
+        <div class="mobile-quote">
+          <p class="mobile-greeting-card-quote-visible">
+            <b>* </b> And if not<b>,</b> take the following with a grain of
+            salt<b>:</b> Nothing is static <b>[</b>except for CSS
+            defaults<b>]</b>, everything is evolving<b>,</b> and everything is
+            falling apart<b>.</b>
+          </p>
+          <p class="mobile-greeting-card-quote-visible mobile-name-referal">
+            Tyler Durden <b> + </b> MDN Docs
+          </p>
+        </div>
+        <button>More</button>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="pointing-arrow-container">
+        <object
+          class="pointing-arrow"
+          data="/assets/arrow-down-double.svg"
+          type="image/svg+xml"
+        ></object>
+        <object
+          class="pointing-arrow"
+          data="/assets/arrow-down-double.svg"
+          type="image/svg+xml"
+        ></object>
+      </div>
+
+      <div class="grid-container">
+        <div class="project-card">
+          <h2 class="project-card-title">Technical Documentation Page</h2>
+          <div class="project-card-content">
+            <p>Project specifications: freeCodeCamp requirements</p>
+            <p>
+              Tags: HTML, vanilla CSS, SASS, Bootstrap, additional technologies
+              not recommended for this project
+            </p>
+          </div>
+          <object
+            class="doc-magnifier-icon"
+            data="/assets/box-4.svg"
+            type="image/svg+xml"
+          ></object>
+        </div>
+        <div class="project-card">
+          <h2 class="project-card-title">Product Landing Page</h2>
+          <div class="project-card-content">
+            <p>Project specifications: freeCodeCamp requirements</p>
+            <p>
+              Tags: HTML, vanilla CSS, SASS, Bootstrap, additional technologies
+              not recommended for this project
+            </p>
+          </div>
+          <object
+            class="doc-magnifier-icon"
+            data="/assets/box-4.svg"
+            type="image/svg+xml"
+          ></object>
+        </div>
+        <div class="project-card">
+          <h2 class="project-card-title">Survey Form</h2>
+          <div class="project-card-content">
+            <p>Project specifications: freeCodeCamp requirements</p>
+            <p>
+              Tags: HTML, vanilla CSS, SASS, Bootstrap, additional technologies
+              not recommended for this project
+            </p>
+          </div>
+          <object
+            class="doc-magnifier-icon"
+            data="/assets/box-4.svg"
+            type="image/svg+xml"
+          ></object>
+        </div>
+        <div class="project-card">
+          <h2 class="project-card-title">Tribute Page</h2>
+          <div class="project-card-content">
+            <p>Project specifications: freeCodeCamp requirements</p>
+            <p>
+              Tags: HTML, vanilla CSS, SASS, Bootstrap, additional technologies
+              not recommended for this project
+            </p>
+          </div>
+          <object
+            class="doc-magnifier-icon"
+            data="/assets/box-4.svg"
+            type="image/svg+xml"
+          ></object>
+        </div>
+        <div class="project-card">
+          <h2 class="project-card-title">Personal Portfolio Webpage</h2>
+          <div class="project-card-content">
+            <p>Project specifications: freeCodeCamp requirements</p>
+            <p>
+              Tags: HTML, vanilla CSS, SASS, Bootstrap, additional technologies
+              not recommended for this project
+            </p>
+          </div>
+          <object
+            class="doc-magnifier-icon"
+            data="/assets/box-4.svg"
+            type="image/svg+xml"
+          ></object>
+        </div>
+        <div class="project-card">
+          <h5 class="project-card-title">PROJECT #4</h5>
+          <p class="project-card-content">Tribute Page for freeCodeCamp.org</p>
+          <object
+            class="doc-magnifier-icon"
+            data="/assets/box-4.svg"
+            type="image/svg+xml"
+          ></object>
+        </div>
+        <div class="project-card">
+          <h5 class="project-card-title">PROJECT #4</h5>
+          <p class="project-card-content">Tribute Page for freeCodeCamp.org</p>
+          <object
+            class="doc-magnifier-icon"
+            data="/assets/box-4.svg"
+            type="image/svg+xml"
+          ></object>
+        </div>
+        <div class="project-card">
+          <h5 class="project-card-title">PROJECT #4</h5>
+          <p class="project-card-content">Tribute Page for freeCodeCamp.org</p>
+          <object
+            class="doc-magnifier-icon"
+            data="/assets/box-4.svg"
+            type="image/svg+xml"
+          ></object>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills-chart">
+      <div class="outward-board">
+        <h2 class="skills-title">SKILLS CHART</h2>
+        <div class="grid-container">
+          <div class="four">
+            <p>HTML[5]</p>
+            <p>CSS[3]</p>
+            <p>SASS | SCSS</p>
+          </div>
+          <div class="five">
+            <p>RWD</p>
+            <p>Flexbox, Grid & CSS variables</p>
+          </div>
+          <div class="six">
+            <p>CSS Animation</p>
+            <p>svg in markup</p>
+          </div>
+          <div class="ten">
+            <p>DOM</p>
+            <p>JavaScript</p>
+          </div>
+          <div class="eleven"><p>JQuery</p></div>
+          <div class="twelve"><p>JSON</p></div>
+          <div class="sixteen">
+            <p>Bootstrap</p>
+            <p>FontAwesome</p>
+            <p>Affinity Designer</p>
+            <p>Figma, Canva</p>
+          </div>
+          <div class="seventeen"><p>ReactJS</p></div>
+          <div class="eighteen">
+            <p>npm</p>
+            <p>Node JS</p>
+            <p>Express.js</p>
+          </div>
+          <div class="twenty">
+            <p>BEM</p>
+          </div>
+          <div class="twenty-one">
+            <p>Databases</p>
+            <p>MySQL</p>
+            <p>MongoDB, Mongoose</p>
+          </div>
+          <div class="twenty-two">
+            <p>CLI</p>
+            <p>Git</p>
+          </div>
+          <div class="twenty-three"><p>APIs</p></div>
+          <div class="twenty-four"><p>regex</p></div>
+        </div>
+        <div class="mobile-skills-descr">
+          <p>constant use</p>
+          <p>active use & learning more</p>
+          <p>of interest to learn / use more</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="languages">
+      <div class="outward-board">
+        <h2 class="languages-title">LANGUAGES</h2>
+        <div class="languages-container">
+          <div class="lang-bucket">
+            <ul>
+              <li>RU</li>
+              <li>Russian</li>
+              <span> === "Mother tongue"</span>
+            </ul>
+          </div>
+          <div class="lang-bucket">
+            <ul>
+              <li>EN</li>
+              <li>English</li>
+              <span> === "Daily use"</span>
+            </ul>
+          </div>
+          <div class="lang-bucket">
+            <ul>
+              <li>TR</li>
+              <li>Turkish</li>
+              <span> === "Learning phase"</span>
+            </ul>
+          </div>
+          <div class="lang-bucket">
+            <ul>
+              <li>SE</li>
+              <li>Swedish</li>
+              <span> === "Hello World level"</span>
+            </ul>
+          </div>
+          <div class="lang-bucket">
+            <ul>
+              <li>LT</li>
+              <li>Lithuanian</li>
+              <span> === "Hello World level"</span>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="contact">
+      <div>
+        <ul class="contact-options">
+          <li>
+            <a href="#" target="_blank"
+              ><i class="fa fa-brands fa-linkedin"></i> linkedIn</a
+            >
+          </li>
+          <li>
+            <a href="#" target="_blank"
+              ><i class="fa fa-brands fa-github"></i> gitHub</a
+            >
+          </li>
+          <li>
+            <a href="#" target="_blank"
+              ><i class="fa fa-solid fa-paper-plane"></i> e-mail</a
+            >
+          </li>
+          <li>
+            <a href="#" target="_blank">
+              <i class="fa fa-brands fa-whatsapp"></i> whatsapp</a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <div class="copyright">
+        <p>&copy; <span id="year"></span> Ilona Chep</p>
+      </div>
+    </footer>
+
+    <script src="/scripts/app.js"></script>
+  </body>
+</html>

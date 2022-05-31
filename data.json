@@ -1,0 +1,17 @@
+{
+    "amEarlyGreeting":[
+       "Hope your day has started great!",
+       "Hope your day's off to a good start",
+       "Hope your day has started well!"
+    ],
+    "amLateGreeting":[
+       "Hope your day is going great!",
+       "Hope your day is going well!",
+       "Hope you are having a productive day!"
+    ],
+    "pmGreeting":[
+       "Hope you've done well today!",
+       "Hope your day has been fantastic!",
+       "Hope today has been gratifying!"
+    ]
+ }
