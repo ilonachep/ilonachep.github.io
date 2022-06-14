@@ -1,4 +1,6 @@
 mobile-index.html
+assets/*.png
+assets/*.jpg
 
 # everything MacOS X
 .DS_Store
